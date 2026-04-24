@@ -1,0 +1,86 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    background-color: #0a0a0a;
+    color: #eaeaea;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* HEADINGS */
+h2 {
+    color: #ff8a1f;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+/* TEXT */
+p {
+    margin: 5px 0;
+    font-size: 15px;
+}
+
+/* CENTER ALIGN FIX */
+div[align="center"], p[align="center"] {
+    text-align: center;
+}
+
+/* IMAGE */
+img {
+    max-width: 100%;
+}
+
+/* AVATAR */
+img[alt="bencodess avatar"] {
+    transition: 0.3s ease;
+    box-shadow: 0 0 25px rgba(255, 138, 31, 0.4);
+}
+
+img[alt="bencodess avatar"]:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 40px rgba(255, 138, 31, 0.8);
+}
+
+/* BADGES */
+a img {
+    margin: 5px;
+    transition: 0.2s ease;
+}
+
+a img:hover {
+    transform: translateY(-2px);
+    filter: brightness(1.2);
+}
+
+/* HR LINE */
+hr {
+    border: none;
+    height: 1px;
+    background: linear-gradient(to right, transparent, #ff8a1f, transparent);
+    margin: 30px 0;
+}
+
+/* STATS IMAGE */
+img[alt="GitHub Streak Stats"] {
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 138, 31, 0.3);
+}
+
+/* SMALL RESPONSIVE */
+@media (max-width: 600px) {
+    h2 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
